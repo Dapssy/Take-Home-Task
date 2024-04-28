@@ -6,11 +6,11 @@ This documentation provides a guide for setting up and running end-to-end tests 
 
 
 ## Setting up the Project in IntelliJ IDEA:
-1. nstall IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
+1. Install IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
 
 2. Clone the Project from GitHub: Open IntelliJ IDEA and select "Check out from Version Control" -> "Git". Enter the repository URL and choose a directory to clone the project.
 
-3.Import Gradle Project: Once the project is cloned, select "Import Project" and choose the directory where the project was cloned. Select "Gradle" as the project type and click "Next" until the project is imported.
+3. Import Gradle Project: Once the project is cloned, select "Import Project" and choose the directory where the project was cloned. Select "Gradle" as the project type and click "Next" until the project is imported.
 
 4. Configure JDK: Ensure that a JDK is configured in IntelliJ IDEA. Go to "File" -> "Project Structure" -> "Project" and select the appropriate JDK version.
 
@@ -26,7 +26,7 @@ Once the project is set up, you can run the tests using the following steps:
 
 1. Run Individual Tests: Navigate to the test class containing the tests you want to run. Right-click on the test method and select "Run" to execute that specific test.
    
-2.Run All Tests: To run all tests, navigate to the test class containing the test suite. Right-click on the class name and select "Run" to execute all tests within that class.
+2. Run All Tests: To run all tests, navigate to the test class containing the test suite. Right-click on the class name and select "Run" to execute all tests within that class.
 
 View Test Results: The test results will be displayed in the "Run" tool window at the bottom of the IntelliJ IDEA interface. You can view the status of each test (passed/failed) along with any error messages or stack traces.
 
