@@ -6,8 +6,8 @@ This documentation provides a guide for setting up and running end-to-end tests 
 
 
 ## Setting up the Project in IntelliJ IDEA:
-Install IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
-Clone the Project from GitHub: Open IntelliJ IDEA and select "Check out from Version Control" -> "Git". Enter the repository URL and choose a directory to clone the project.
+1.##Install IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
+2. Clone the Project from GitHub: Open IntelliJ IDEA and select "Check out from Version Control" -> "Git". Enter the repository URL and choose a directory to clone the project.
 Import Gradle Project: Once the project is cloned, select "Import Project" and choose the directory where the project was cloned. Select "Gradle" as the project type and click "Next" until the project is imported.
 Configure JDK: Ensure that a JDK is configured in IntelliJ IDEA. Go to "File" -> "Project Structure" -> "Project" and select the appropriate JDK version.
 Install Dependencies: IntelliJ IDEA should automatically download and install the required dependencies specified in the build.gradle file.
