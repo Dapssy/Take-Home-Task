@@ -6,14 +6,22 @@ This documentation provides a guide for setting up and running end-to-end tests 
 
 
 ## Setting up the Project in IntelliJ IDEA:
-1.##Install IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
+1. ## Install IntelliJ IDEA: Download and install IntelliJ IDEA from the official website if you haven't already.
+
 2. Clone the Project from GitHub: Open IntelliJ IDEA and select "Check out from Version Control" -> "Git". Enter the repository URL and choose a directory to clone the project.
-Import Gradle Project: Once the project is cloned, select "Import Project" and choose the directory where the project was cloned. Select "Gradle" as the project type and click "Next" until the project is imported.
+
+3.Import Gradle Project: Once the project is cloned, select "Import Project" and choose the directory where the project was cloned. Select "Gradle" as the project type and click "Next" until the project is imported.
+
 Configure JDK: Ensure that a JDK is configured in IntelliJ IDEA. Go to "File" -> "Project Structure" -> "Project" and select the appropriate JDK version.
+
 Install Dependencies: IntelliJ IDEA should automatically download and install the required dependencies specified in the build.gradle file.
+
 Set up WebDriver Path: Open the build.gradle file and locate the configuration for the Chrome WebDriver. Ensure that the webdriver.chrome.driver property points to the correct path where the Chrome WebDriver executable is located on your system. If necessary, update the path to match your local environment.
+
 Set up Test Configuration: Create a run configuration for Gradle tests by selecting "Edit Configurations" from the dropdown menu next to the Run/Debug buttons. Add a new Gradle configuration and specify the Gradle project path and tasks to run.
-Running the Tests:
+
+
+## Running the Tests:
 Once the project is set up, you can run the tests using the following steps:
 
 Run Individual Tests: Navigate to the test class containing the tests you want to run. Right-click on the test method and select "Run" to execute that specific test.
